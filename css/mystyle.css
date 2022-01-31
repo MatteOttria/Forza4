@@ -1,0 +1,32 @@
+.map-row > .col{
+    user-select: none;
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    text-align: center;
+    margin: 2px;
+}
+
+.row button::after {
+    content: '\21E9';
+    font-size: 2rem;
+}
+
+.disc-red {
+    background: red;
+}
+
+.disc-yellow {
+    background: yellow;
+}
+
+.container {
+    width: 750px;
+    height: 614px;
+}
+
+h1{
+    font-size: 60px;
+}
